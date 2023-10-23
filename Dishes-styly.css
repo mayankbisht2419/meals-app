@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(232, 235, 235);
+}
+/* container for keeping all the cards together */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* search box style */
+.search{
+    display: flex;
+    width: 100%;
+    border: 2px ;
+    height: 10rem;
+    align-items: center;
+    border-radius: 2px;
+    background-color: rgb(213, 218, 218);;
+}
+.search input, button{
+    /* height: 4vh; */
+    border-radius: 1vh;
+    
+    height: 2.5rem;
+}
+.search input{
+    margin-left: 10rem;
+    width: 20rem;
+}
+
+.dish{
+    margin: 2vw 2vw 2vw 2vw;
+}
+.dish img{
+    width: 20vw;
+}

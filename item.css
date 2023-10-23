@@ -1,0 +1,10 @@
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+img{
+    height: 40vh;
+    width: 40vh;
+
+}
